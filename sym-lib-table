@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name blameless-rescue)(type Legacy)(uri ${KIPRJMOD}/blameless-rescue.lib)(options "")(descr ""))
+)

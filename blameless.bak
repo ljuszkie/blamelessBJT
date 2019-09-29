@@ -1,0 +1,1280 @@
+EESchema Schematic File Version 4
+LIBS:blameless-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L blameless-rescue:BCM847 U1
+U 1 1 553B8DEE
+P 2250 3150
+F 0 "U1" H 2150 3300 50  0000 C CNN
+F 1 "BCM847" H 2090 2980 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering" H 2250 3150 60  0001 C CNN
+F 3 "" H 2250 3150 60  0000 C CNN
+	1    2250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:BCM847 U1
+U 2 1 553B8E40
+P 3500 3150
+F 0 "U1" H 3400 3300 50  0000 C CNN
+F 1 "BCM847" H 3340 2980 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering" H 3500 3150 60  0001 C CNN
+F 3 "" H 3500 3150 60  0000 C CNN
+	2    3500 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:BCM857 U2
+U 1 1 553B8EC3
+P 2450 1800
+F 0 "U2" H 2350 1950 50  0000 C CNN
+F 1 "BCM857" H 2290 1630 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering" H 2450 1800 60  0001 C CNN
+F 3 "" H 2450 1800 60  0000 C CNN
+	1    2450 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L blameless-rescue:BCM857 U2
+U 2 1 553B8F52
+P 3300 1800
+F 0 "U2" H 3200 1950 50  0000 C CNN
+F 1 "BCM857" H 3140 1630 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering" H 3300 1800 60  0001 C CNN
+F 3 "" H 3300 1800 60  0000 C CNN
+	2    3300 1800
+	1    0    0    1   
+$EndComp
+$Comp
+L blameless-rescue:BC857 Q2
+U 1 1 553B901B
+P 2950 2100
+F 0 "Q2" H 2950 1951 40  0000 R CNN
+F 1 "BC857" H 2950 2250 40  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2850 2202 29  0000 C CNN
+F 3 "" H 2950 2100 60  0000 C CNN
+	1    2950 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 553B91F3
+P 2850 2400
+F 0 "#PWR01" H 2850 2150 60  0001 C CNN
+F 1 "GND" H 2850 2250 60  0000 C CNN
+F 2 "" H 2850 2400 60  0000 C CNN
+F 3 "" H 2850 2400 60  0000 C CNN
+	1    2850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R8
+U 1 1 553B9213
+P 2850 1200
+F 0 "R8" V 2930 1200 50  0000 C CNN
+F 1 "10k" V 2857 1201 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 2780 1200 30  0001 C CNN
+F 3 "" H 2850 1200 30  0000 C CNN
+	1    2850 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R6
+U 1 1 553B92B0
+P 2350 1200
+F 0 "R6" V 2430 1200 50  0000 C CNN
+F 1 "200R" V 2357 1201 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 2280 1200 30  0001 C CNN
+F 3 "" H 2350 1200 30  0000 C CNN
+	1    2350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R10
+U 1 1 553B92EB
+P 3400 1200
+F 0 "R10" V 3480 1200 50  0000 C CNN
+F 1 "200R" V 3407 1201 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 3330 1200 30  0001 C CNN
+F 3 "" H 3400 1200 30  0000 C CNN
+	1    3400 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R7
+U 1 1 553B979B
+P 2350 3750
+F 0 "R7" V 2430 3750 50  0000 C CNN
+F 1 "200R" V 2357 3751 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 2280 3750 30  0001 C CNN
+F 3 "" H 2350 3750 30  0000 C CNN
+	1    2350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R11
+U 1 1 553B9806
+P 3400 3750
+F 0 "R11" V 3480 3750 50  0000 C CNN
+F 1 "200R" V 3407 3751 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 3330 3750 30  0001 C CNN
+F 3 "" H 3400 3750 30  0000 C CNN
+	1    3400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 553B993E
+P 2000 4350
+F 0 "#PWR02" H 2000 4100 60  0001 C CNN
+F 1 "GND" H 2000 4200 60  0000 C CNN
+F 2 "" H 2000 4350 60  0000 C CNN
+F 3 "" H 2000 4350 60  0000 C CNN
+	1    2000 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R5
+U 1 1 553B9B64
+P 2000 4700
+F 0 "R5" V 2080 4700 50  0000 C CNN
+F 1 "4k7" V 2007 4701 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 1930 4700 30  0001 C CNN
+F 3 "" H 2000 4700 30  0000 C CNN
+	1    2000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:ZENER D1
+U 1 1 553B9B97
+P 2000 5500
+F 0 "D1" H 2000 5600 50  0000 C CNN
+F 1 "8V2" H 2000 5400 50  0000 C CNN
+F 2 "Diodes_SMD:D_MiniMELF_Handsoldering" H 2000 5500 60  0001 C CNN
+F 3 "" H 2000 5500 60  0000 C CNN
+	1    2000 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R9
+U 1 1 553B9CE2
+P 2850 5750
+F 0 "R9" V 2930 5750 50  0000 C CNN
+F 1 "1k2" V 2857 5751 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 2780 5750 30  0001 C CNN
+F 3 "" H 2850 5750 30  0000 C CNN
+	1    2850 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R12
+U 1 1 553B9F66
+P 3850 3550
+F 0 "R12" V 3930 3550 50  0000 C CNN
+F 1 "1k2" V 3857 3551 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 3780 3550 30  0001 C CNN
+F 3 "" H 3850 3550 30  0000 C CNN
+	1    3850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R13
+U 1 1 553B9FA6
+P 4250 3150
+F 0 "R13" V 4330 3150 50  0000 C CNN
+F 1 "22k" V 4257 3151 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 4180 3150 30  0001 C CNN
+F 3 "" H 4250 3150 30  0000 C CNN
+	1    4250 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R4
+U 1 1 553BA278
+P 1950 3550
+F 0 "R4" V 2030 3550 50  0000 C CNN
+F 1 "22k" V 1957 3551 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 1880 3550 30  0001 C CNN
+F 3 "" H 1950 3550 30  0000 C CNN
+	1    1950 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L blameless-rescue:C-RESCUE-blameless C3
+U 1 1 553BA30A
+P 3850 4150
+F 0 "C3" H 3900 4250 50  0000 L CNN
+F 1 "220u 35V" H 3900 4050 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_8x10" H 3888 4000 30  0001 C CNN
+F 3 "" H 3850 4150 60  0000 C CNN
+	1    3850 4150
+	1    0    0    -1  
+$EndComp
+Text Label 5000 3150 0    60   ~ 0
+out
+$Comp
+L power:GND #PWR03
+U 1 1 553BAD97
+P 4650 2500
+F 0 "#PWR03" H 4650 2250 60  0001 C CNN
+F 1 "GND" H 4650 2350 60  0000 C CNN
+F 2 "" H 4650 2500 60  0000 C CNN
+F 3 "" H 4650 2500 60  0000 C CNN
+	1    4650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R15
+U 1 1 553BAF85
+P 4650 1200
+F 0 "R15" V 4730 1200 50  0000 C CNN
+F 1 "470R" V 4657 1201 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 4580 1200 30  0001 C CNN
+F 3 "" H 4650 1200 30  0000 C CNN
+	1    4650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R19
+U 1 1 553BB3F5
+P 5900 1200
+F 0 "R19" V 5980 1200 50  0000 C CNN
+F 1 "470R" V 5907 1201 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 5830 1200 30  0001 C CNN
+F 3 "" H 5900 1200 30  0000 C CNN
+	1    5900 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R20
+U 1 1 553BBAC6
+P 5900 2550
+F 0 "R20" V 5980 2550 50  0000 C CNN
+F 1 "16R" V 5907 2551 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 5830 2550 30  0001 C CNN
+F 3 "" H 5900 2550 30  0000 C CNN
+	1    5900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R17
+U 1 1 553BBD6B
+P 5450 2800
+F 0 "R17" V 5530 2800 50  0000 C CNN
+F 1 "1k" V 5457 2801 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 5380 2800 30  0001 C CNN
+F 3 "" H 5450 2800 30  0000 C CNN
+	1    5450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R18
+U 1 1 553BBF5E
+P 5450 3500
+F 0 "R18" V 5530 3500 50  0000 C CNN
+F 1 "220R" V 5457 3501 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 5380 3500 30  0001 C CNN
+F 3 "" H 5450 3500 30  0000 C CNN
+	1    5450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:POT-RESCUE-blameless RV1
+U 1 1 553BC110
+P 5450 4100
+F 0 "RV1" H 5450 4000 50  0000 C CNN
+F 1 "1k" H 5450 4100 50  0000 C CNN
+F 2 "Potentiometer_SMD:Potentiometer_Bourns_3214G_Horizontal" H 5450 4100 60  0001 C CNN
+F 3 "" H 5450 4100 60  0000 C CNN
+	1    5450 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L blameless-rescue:CP2 C6
+U 1 1 553BC5CD
+P 6300 3800
+F 0 "C6" H 6350 3900 50  0000 L CNN
+F 1 "47u 35V" H 6350 3700 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 6338 3650 30  0001 C CNN
+F 3 "" H 6300 3800 60  0000 C CNN
+	1    6300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R21
+U 1 1 553BD9E2
+P 5900 5750
+F 0 "R21" V 5980 5750 50  0000 C CNN
+F 1 "470R" V 5907 5751 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 5830 5750 30  0001 C CNN
+F 3 "" H 5900 5750 30  0000 C CNN
+	1    5900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R25
+U 1 1 553BEDFA
+P 7450 3800
+F 0 "R25" V 7530 3800 50  0000 C CNN
+F 1 "68R" V 7457 3801 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 7380 3800 30  0001 C CNN
+F 3 "" H 7450 3800 30  0000 C CNN
+	1    7450 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:C-RESCUE-blameless C8
+U 1 1 553BEE02
+P 7150 3800
+F 0 "C8" H 7200 3900 50  0000 L CNN
+F 1 "10u" H 7200 3700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7188 3650 30  0001 C CNN
+F 3 "" H 7150 3800 60  0000 C CNN
+	1    7150 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R23
+U 1 1 553BEFD5
+P 6750 2850
+F 0 "R23" V 6830 2850 50  0000 C CNN
+F 1 "10R" V 6757 2851 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 6680 2850 30  0001 C CNN
+F 3 "" H 6750 2850 30  0000 C CNN
+	1    6750 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R24
+U 1 1 553BF284
+P 6750 4850
+F 0 "R24" V 6830 4850 50  0000 C CNN
+F 1 "10R" V 6757 4851 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 6680 4850 30  0001 C CNN
+F 3 "" H 6750 4850 30  0000 C CNN
+	1    6750 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L blameless-rescue:C-RESCUE-blameless C4
+U 1 1 553C13A2
+P 4100 2550
+F 0 "C4" H 4150 2650 50  0000 L CNN
+F 1 "82p" H 4150 2450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4138 2400 30  0001 C CNN
+F 3 "" H 4100 2550 60  0000 C CNN
+	1    4100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:C-RESCUE-blameless C5
+U 1 1 553C14DA
+P 5100 2550
+F 0 "C5" H 5150 2650 50  0000 L CNN
+F 1 "220p" H 5150 2450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5138 2400 30  0001 C CNN
+F 3 "" H 5100 2550 60  0000 C CNN
+	1    5100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R14
+U 1 1 553C1645
+P 4550 2950
+F 0 "R14" V 4630 2950 50  0000 C CNN
+F 1 "2k" V 4557 2951 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 4480 2950 30  0001 C CNN
+F 3 "" H 4550 2950 30  0000 C CNN
+	1    4550 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R26
+U 1 1 553C2168
+P 8000 2850
+F 0 "R26" V 8080 2850 50  0000 C CNN
+F 1 "2R2" V 8007 2851 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 7930 2850 30  0001 C CNN
+F 3 "" H 8000 2850 30  0000 C CNN
+	1    8000 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R27
+U 1 1 553C216E
+P 8000 4850
+F 0 "R27" V 8080 4850 50  0000 C CNN
+F 1 "2R2" V 8007 4851 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 7930 4850 30  0001 C CNN
+F 3 "" H 8000 4850 30  0000 C CNN
+	1    8000 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L blameless-rescue:2SC4793 Q13
+U 1 1 553C2174
+P 8600 2850
+F 0 "Q13" H 8600 2700 40  0000 R CNN
+F 1 "2SC2837" H 8600 3000 40  0000 R CNN
+F 2 "TOs:to247" H 8480 2950 29  0001 C CNN
+F 3 "" H 8600 2850 60  0000 C CNN
+	1    8600 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:2SA1837 Q14
+U 1 1 553C217A
+P 8600 4850
+F 0 "Q14" H 8600 4700 40  0000 R CNN
+F 1 "2SA1186" H 8600 5000 40  0000 R CNN
+F 2 "TOs:to247" H 8480 4950 29  0001 C CNN
+F 3 "" H 8600 4850 60  0000 C CNN
+	1    8600 4850
+	1    0    0    1   
+$EndComp
+$Comp
+L blameless-rescue:C-RESCUE-blameless C2
+U 1 1 553C2872
+P 1650 3150
+F 0 "C2" H 1700 3250 50  0000 L CNN
+F 1 "4u7" H 1700 3050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 1688 3000 30  0001 C CNN
+F 3 "" H 1650 3150 60  0000 C CNN
+	1    1650 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L blameless-rescue:C-RESCUE-blameless C1
+U 1 1 553C2938
+P 1350 3550
+F 0 "C1" H 1400 3650 50  0000 L CNN
+F 1 "220p" H 1400 3450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 1388 3400 30  0001 C CNN
+F 3 "" H 1350 3550 60  0000 C CNN
+	1    1350 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R2
+U 1 1 553C29D8
+P 1000 3150
+F 0 "R2" V 1080 3150 50  0000 C CNN
+F 1 "2k2" V 1007 3151 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 930 3150 30  0001 C CNN
+F 3 "" H 1000 3150 30  0000 C CNN
+	1    1000 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R28
+U 1 1 553C37C5
+P 8700 3400
+F 0 "R28" V 8780 3400 50  0000 C CNN
+F 1 "0R22" V 8707 3401 50  0000 C CNN
+F 2 "Resistor_THT:R_Box_L14.0mm_W5.0mm_P9.00mm" V 8630 3400 30  0001 C CNN
+F 3 "" H 8700 3400 30  0000 C CNN
+	1    8700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R29
+U 1 1 553C386E
+P 8700 4300
+F 0 "R29" V 8780 4300 50  0000 C CNN
+F 1 "0R22" V 8707 4301 50  0000 C CNN
+F 2 "Resistor_THT:R_Box_L14.0mm_W5.0mm_P9.00mm" V 8630 4300 30  0001 C CNN
+F 3 "" H 8700 4300 30  0000 C CNN
+	1    8700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R3
+U 1 1 553C5C65
+P 1350 4300
+F 0 "R3" V 1430 4300 50  0000 C CNN
+F 1 "10R" V 1357 4301 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 1280 4300 30  0001 C CNN
+F 3 "" H 1350 4300 30  0000 C CNN
+	1    1350 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 553C5CD1
+P 1350 4700
+F 0 "#PWR04" H 1350 4450 60  0001 C CNN
+F 1 "GND" H 1350 4550 60  0000 C CNN
+F 2 "" H 1350 4700 60  0000 C CNN
+F 3 "" H 1350 4700 60  0000 C CNN
+	1    1350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR05
+U 1 1 553C5FAF
+P 900 4050
+F 0 "#PWR05" H 900 3800 60  0001 C CNN
+F 1 "GNDREF" H 900 3900 60  0000 C CNN
+F 2 "" H 900 4050 60  0000 C CNN
+F 3 "" H 900 4050 60  0000 C CNN
+	1    900  4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR06
+U 1 1 553C60EE
+P 3850 4500
+F 0 "#PWR06" H 3850 4250 60  0001 C CNN
+F 1 "GNDREF" H 3850 4350 60  0000 C CNN
+F 2 "" H 3850 4500 60  0000 C CNN
+F 3 "" H 3850 4500 60  0000 C CNN
+	1    3850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R1
+U 1 1 553C62A3
+P 650 3550
+F 0 "R1" V 730 3550 50  0000 C CNN
+F 1 "100k" V 657 3551 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 580 3550 30  0001 C CNN
+F 3 "" H 650 3550 30  0000 C CNN
+	1    650  3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR07
+U 1 1 553C7586
+P 2350 700
+F 0 "#PWR07" H 2350 550 60  0001 C CNN
+F 1 "VCC" H 2350 850 60  0000 C CNN
+F 2 "" H 2350 700 60  0000 C CNN
+F 3 "" H 2350 700 60  0000 C CNN
+	1    2350 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VEE #PWR08
+U 1 1 553C7B77
+P 2000 6350
+F 0 "#PWR08" H 2000 6200 60  0001 C CNN
+F 1 "VEE" H 2000 6500 60  0000 C CNN
+F 2 "" H 2000 6350 60  0000 C CNN
+F 3 "" H 2000 6350 60  0000 C CNN
+	1    2000 6350
+	-1   0    0    1   
+$EndComp
+Text Label 650  3000 0    60   ~ 0
+IN
+$Comp
+L blameless-rescue:CONN_01X02 P1
+U 1 1 553C8A2D
+P 2550 7000
+F 0 "P1" H 2550 7150 50  0000 C CNN
+F 1 "IN" V 2650 7000 50  0000 C CNN
+F 2 "w_conn_pt-1,5:pt_1,5-2-3,5-h" H 2550 7000 60  0001 C CNN
+F 3 "" H 2550 7000 60  0000 C CNN
+	1    2550 7000
+	-1   0    0    -1  
+$EndComp
+Text Label 2900 6800 0    60   ~ 0
+IN
+$Comp
+L power:GNDREF #PWR09
+U 1 1 553C8DC6
+P 2900 7200
+F 0 "#PWR09" H 2900 6950 60  0001 C CNN
+F 1 "GNDREF" H 2900 7050 60  0000 C CNN
+F 2 "" H 2900 7200 60  0000 C CNN
+F 3 "" H 2900 7200 60  0000 C CNN
+	1    2900 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:CONN_01X01 P2
+U 1 1 553C91A4
+P 3700 6950
+F 0 "P2" H 3700 7050 50  0000 C CNN
+F 1 "VCC" V 3800 6950 50  0000 C CNN
+F 2 "Connectors:1pin" H 3700 6950 60  0001 C CNN
+F 3 "" H 3700 6950 60  0000 C CNN
+	1    3700 6950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR010
+U 1 1 553C93CF
+P 4000 6850
+F 0 "#PWR010" H 4000 6700 60  0001 C CNN
+F 1 "VCC" H 4000 7000 60  0000 C CNN
+F 2 "" H 4000 6850 60  0000 C CNN
+F 3 "" H 4000 6850 60  0000 C CNN
+	1    4000 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:CONN_01X01 P3
+U 1 1 553C94E5
+P 4300 6950
+F 0 "P3" H 4300 7050 50  0000 C CNN
+F 1 "VEE" V 4400 6950 50  0000 C CNN
+F 2 "Connectors:1pin" H 4300 6950 60  0001 C CNN
+F 3 "" H 4300 6950 60  0000 C CNN
+	1    4300 6950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VEE #PWR011
+U 1 1 553C9657
+P 4600 7050
+F 0 "#PWR011" H 4600 6900 60  0001 C CNN
+F 1 "VEE" H 4600 7200 60  0000 C CNN
+F 2 "" H 4600 7050 60  0000 C CNN
+F 3 "" H 4600 7050 60  0000 C CNN
+	1    4600 7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L blameless-rescue:CONN_01X01 P4
+U 1 1 553C9771
+P 10500 3850
+F 0 "P4" H 10500 3950 50  0000 C CNN
+F 1 "OUT" V 10600 3850 50  0000 C CNN
+F 2 "Connectors:1pin" H 10500 3850 60  0001 C CNN
+F 3 "" H 10500 3850 60  0000 C CNN
+	1    10500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:CONN_01X01 P5
+U 1 1 553CAFD8
+P 3200 6950
+F 0 "P5" H 3200 7050 50  0000 C CNN
+F 1 "GND" V 3300 6950 50  0000 C CNN
+F 2 "Connectors:1pin" H 3200 6950 60  0001 C CNN
+F 3 "" H 3200 6950 60  0000 C CNN
+	1    3200 6950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 553CB18E
+P 3500 7200
+F 0 "#PWR012" H 3500 6950 60  0001 C CNN
+F 1 "GND" H 3500 7050 60  0000 C CNN
+F 2 "" H 3500 7200 60  0000 C CNN
+F 3 "" H 3500 7200 60  0000 C CNN
+	1    3500 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2300 2850 2400
+Wire Wire Line
+	2850 1450 2850 1800
+Wire Wire Line
+	2650 1800 2850 1800
+Connection ~ 2850 1800
+Wire Wire Line
+	2350 1450 2350 1600
+Wire Wire Line
+	3400 1450 3400 1600
+Wire Wire Line
+	3150 2100 3400 2100
+Wire Wire Line
+	3400 2000 3400 2100
+Connection ~ 3400 2100
+Wire Wire Line
+	2350 2000 2350 2650
+Wire Wire Line
+	2350 3350 2350 3500
+Wire Wire Line
+	3400 3350 3400 3500
+Wire Wire Line
+	3400 4150 3400 4000
+Wire Wire Line
+	2350 4150 2850 4150
+Wire Wire Line
+	2350 4150 2350 4000
+Wire Wire Line
+	2850 4150 2850 4950
+Connection ~ 2850 4150
+Wire Wire Line
+	2000 4950 2000 5150
+Wire Wire Line
+	2850 5350 2850 5500
+Wire Wire Line
+	2850 6000 2850 6200
+Wire Wire Line
+	2000 6200 2850 6200
+Wire Wire Line
+	2000 4350 2000 4450
+Wire Wire Line
+	3700 3150 3850 3150
+Wire Wire Line
+	3850 3300 3850 3150
+Connection ~ 3850 3150
+Wire Wire Line
+	3850 3800 3850 3900
+Wire Wire Line
+	1850 3150 1950 3150
+Wire Wire Line
+	1950 3150 1950 3300
+Wire Wire Line
+	2350 700  2350 800 
+Wire Wire Line
+	2350 800  2850 800 
+Wire Wire Line
+	3400 800  3400 950 
+Wire Wire Line
+	2850 950  2850 800 
+Connection ~ 2850 800 
+Wire Wire Line
+	4500 3150 4850 3150
+Wire Wire Line
+	4650 2500 4650 2400
+Wire Wire Line
+	5900 1450 5900 1700
+Wire Wire Line
+	5900 800  5900 950 
+Connection ~ 5900 800 
+Wire Wire Line
+	4650 950  4650 800 
+Connection ~ 4650 800 
+Wire Wire Line
+	4650 1450 4650 1900
+Wire Wire Line
+	4650 1900 5600 1900
+Connection ~ 4650 1900
+Wire Wire Line
+	3700 2200 4100 2200
+Wire Wire Line
+	3700 2200 3700 2650
+Wire Wire Line
+	3700 2650 2350 2650
+Connection ~ 2350 2650
+Wire Wire Line
+	5900 2100 5900 2200
+Wire Wire Line
+	5450 2200 5450 2550
+Connection ~ 5900 2200
+Wire Wire Line
+	5900 2800 5900 2850
+Wire Wire Line
+	5450 3150 5600 3150
+Wire Wire Line
+	5450 3050 5450 3150
+Wire Wire Line
+	5450 3750 5450 3800
+Wire Wire Line
+	5450 3800 5650 3800
+Wire Wire Line
+	5650 3800 5650 4100
+Wire Wire Line
+	5650 4100 5600 4100
+Connection ~ 5450 3800
+Connection ~ 5450 3150
+Wire Wire Line
+	5900 3350 5900 4500
+Wire Wire Line
+	5450 4500 5900 4500
+Wire Wire Line
+	5450 4500 5450 4350
+Wire Wire Line
+	5100 2200 5450 2200
+Wire Wire Line
+	6300 2850 6300 3600
+Connection ~ 5900 2850
+Wire Wire Line
+	6300 4000 6300 4500
+Wire Wire Line
+	2000 5150 2400 5150
+Connection ~ 2000 5150
+Wire Wire Line
+	2000 5700 2000 6200
+Wire Wire Line
+	5900 5350 5900 5500
+Wire Wire Line
+	5900 6000 5900 6200
+Connection ~ 5900 6200
+Wire Wire Line
+	5600 5150 3450 5150
+Wire Wire Line
+	3450 5150 3450 4750
+Wire Wire Line
+	3450 4750 2400 4750
+Wire Wire Line
+	2400 4750 2400 5150
+Connection ~ 2400 5150
+Connection ~ 5900 4500
+Wire Wire Line
+	7450 3050 7450 3400
+Wire Wire Line
+	7450 4050 7450 4200
+Wire Wire Line
+	7150 3400 7450 3400
+Wire Wire Line
+	7150 3400 7150 3600
+Connection ~ 7450 3400
+Wire Wire Line
+	7150 4000 7150 4200
+Wire Wire Line
+	7150 4200 7450 4200
+Connection ~ 7450 4200
+Wire Wire Line
+	7000 2850 7150 2850
+Wire Wire Line
+	7000 4850 7150 4850
+Wire Wire Line
+	4800 2950 4850 2950
+Wire Wire Line
+	4850 2950 4850 3150
+Connection ~ 4850 3150
+Wire Wire Line
+	5100 2750 5100 2850
+Wire Wire Line
+	5100 2850 4100 2850
+Wire Wire Line
+	4100 2750 4100 2850
+Wire Wire Line
+	4100 2950 4300 2950
+Connection ~ 4100 2850
+Wire Wire Line
+	4100 2350 4100 2200
+Connection ~ 4100 2200
+Wire Wire Line
+	5100 2200 5100 2350
+Connection ~ 5450 2200
+Wire Wire Line
+	8250 2850 8400 2850
+Wire Wire Line
+	7750 2850 7650 2850
+Wire Wire Line
+	8250 4850 8400 4850
+Wire Wire Line
+	7750 4850 7650 4850
+Wire Wire Line
+	7650 2850 7650 3400
+Wire Wire Line
+	7650 4850 7650 4200
+Wire Wire Line
+	8700 3650 8700 3850
+Wire Wire Line
+	8700 4550 8700 4650
+Wire Wire Line
+	8700 3050 8700 3150
+Connection ~ 8700 3850
+Wire Wire Line
+	750  3150 650  3150
+Wire Wire Line
+	650  3000 650  3150
+Wire Wire Line
+	1250 3150 1350 3150
+Wire Wire Line
+	1350 3350 1350 3150
+Connection ~ 1350 3150
+Connection ~ 1950 3150
+Wire Wire Line
+	1350 3750 1350 3900
+Wire Wire Line
+	650  3900 900  3900
+Wire Wire Line
+	1950 3900 1950 3800
+Wire Wire Line
+	1350 4550 1350 4700
+Connection ~ 1350 3900
+Wire Wire Line
+	900  3900 900  4050
+Wire Wire Line
+	3850 4350 3850 4400
+Wire Wire Line
+	650  3800 650  3900
+Connection ~ 900  3900
+Connection ~ 650  3150
+Connection ~ 2350 800 
+Connection ~ 2000 6200
+Connection ~ 2850 6200
+Connection ~ 3400 800 
+Wire Wire Line
+	2750 6950 2900 6950
+Wire Wire Line
+	2900 6950 2900 6800
+Wire Wire Line
+	2750 7050 2900 7050
+Wire Wire Line
+	2900 7050 2900 7200
+Wire Wire Line
+	3900 6950 4000 6950
+Wire Wire Line
+	4000 6950 4000 6850
+Wire Wire Line
+	4500 6950 4600 6950
+Wire Wire Line
+	4600 6950 4600 7050
+Wire Wire Line
+	9800 3850 10000 3850
+Wire Wire Line
+	3400 6950 3500 6950
+Wire Wire Line
+	3500 6950 3500 7200
+Wire Wire Line
+	7450 5050 7450 6200
+Connection ~ 7450 6200
+Wire Wire Line
+	8700 6200 8700 5050
+Connection ~ 8700 6200
+Wire Wire Line
+	7450 2650 7450 800 
+Wire Wire Line
+	8700 800  8700 2650
+Connection ~ 8700 800 
+Wire Wire Line
+	5900 2850 6300 2850
+$Comp
+L blameless-rescue:BCP51 Q4
+U 1 1 59FA38FA
+P 5800 1900
+F 0 "Q4" H 6000 1975 50  0000 L CNN
+F 1 "BF723" H 6000 1900 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 6000 1825 50  0001 L CIN
+F 3 "" H 5800 1900 50  0001 L CNN
+	1    5800 1900
+	1    0    0    1   
+$EndComp
+$Comp
+L blameless-rescue:BCP54 Q6
+U 1 1 59FA55AD
+P 5800 5150
+F 0 "Q6" H 6000 5225 50  0000 L CNN
+F 1 "BCP54" H 6000 5150 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 6000 5075 50  0001 L CIN
+F 3 "" H 5800 5150 50  0001 L CNN
+	1    5800 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 7450 800 
+Connection ~ 6300 2850
+Wire Wire Line
+	6300 4850 6500 4850
+Connection ~ 6300 4500
+$Comp
+L blameless-rescue:BC857 Q3
+U 1 1 59FA7973
+P 4550 2200
+F 0 "Q3" H 4550 2051 40  0000 R CNN
+F 1 "BC860C" H 4550 2350 40  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4450 2302 29  0000 C CNN
+F 3 "" H 4550 2200 60  0000 C CNN
+	1    4550 2200
+	1    0    0    1   
+$EndComp
+$Comp
+L blameless-rescue:BC850 Q1
+U 1 1 59FA7E4A
+P 2750 5150
+F 0 "Q1" H 2950 5225 50  0000 L CNN
+F 1 "BC850C" H 2950 5150 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2950 5075 50  0001 L CIN
+F 3 "" H 2750 5150 50  0001 L CNN
+	1    2750 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:BD135 Q5
+U 1 1 59FA8A68
+P 5800 3150
+F 0 "Q5" H 6000 3225 50  0000 L CNN
+F 1 "BD135" H 6000 3150 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-126_Vertical" H 6000 3075 50  0001 L CIN
+F 3 "" H 5800 3150 50  0001 L CNN
+	1    5800 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 3850 8700 3850
+Text Label 8550 3850 0    60   ~ 0
+out
+$Comp
+L blameless-rescue:CP2 C7
+U 1 1 59FA92D4
+P 9100 1100
+F 0 "C7" H 9150 1200 50  0000 L CNN
+F 1 "220u 35V" H 9150 1000 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_8x10" H 9138 950 30  0001 C CNN
+F 3 "" H 9100 1100 60  0000 C CNN
+	1    9100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:CP2 C9
+U 1 1 59FA94D9
+P 9100 5800
+F 0 "C9" H 9150 5900 50  0000 L CNN
+F 1 "220u 35V" H 9150 5700 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_8x10" H 9138 5650 30  0001 C CNN
+F 3 "" H 9100 5800 60  0000 C CNN
+	1    9100 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 800  9100 900 
+$Comp
+L power:GND #PWR013
+U 1 1 59FA97B1
+P 9100 1400
+F 0 "#PWR013" H 9100 1150 60  0001 C CNN
+F 1 "GND" H 9100 1250 60  0000 C CNN
+F 2 "" H 9100 1400 60  0000 C CNN
+F 3 "" H 9100 1400 60  0000 C CNN
+	1    9100 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1400 9100 1300
+$Comp
+L power:GND #PWR014
+U 1 1 59FA9DB8
+P 9100 4900
+F 0 "#PWR014" H 9100 4650 60  0001 C CNN
+F 1 "GND" H 9100 4750 60  0000 C CNN
+F 2 "" H 9100 4900 60  0000 C CNN
+F 3 "" H 9100 4900 60  0000 C CNN
+	1    9100 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 5450 9400 5350
+Wire Wire Line
+	9400 5350 9100 5350
+Wire Wire Line
+	9100 5350 9100 5600
+Wire Wire Line
+	9100 6200 9100 6000
+$Comp
+L blameless-rescue:C C10
+U 1 1 59FAC2B9
+P 9100 4650
+F 0 "C10" H 9125 4750 50  0000 L CNN
+F 1 "100n" H 9125 4550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 9138 4500 50  0001 C CNN
+F 3 "" H 9100 4650 50  0001 C CNN
+	1    9100 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L blameless-rescue:R-RESCUE-blameless R16
+U 1 1 59FAC3AA
+P 9100 4150
+F 0 "R16" V 9180 4150 50  0000 C CNN
+F 1 "10R" V 9107 4151 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical" V 9030 4150 30  0001 C CNN
+F 3 "" H 9100 4150 30  0000 C CNN
+	1    9100 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 4800 9100 4900
+$Comp
+L power:GND #PWR015
+U 1 1 59FAC984
+P 9400 5450
+F 0 "#PWR015" H 9400 5200 60  0001 C CNN
+F 1 "GND" H 9400 5300 60  0000 C CNN
+F 2 "" H 9400 5450 60  0000 C CNN
+F 3 "" H 9400 5450 60  0000 C CNN
+	1    9400 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 3850 9100 3900
+Wire Wire Line
+	9100 4400 9100 4500
+$Comp
+L blameless-rescue:L L1
+U 1 1 59FAD0E0
+P 9650 3850
+F 0 "L1" V 9600 3850 50  0000 C CNN
+F 1 "100n" V 9725 3850 50  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_5x10mm_Vertical" H 9650 3850 50  0001 C CNN
+F 3 "" H 9650 3850 50  0001 C CNN
+	1    9650 3850
+	0    1    1    0   
+$EndComp
+Connection ~ 9100 3850
+$Comp
+L blameless-rescue:R-RESCUE-blameless R22
+U 1 1 59FAD372
+P 9650 4050
+F 0 "R22" V 9730 4050 50  0000 C CNN
+F 1 "10R" V 9657 4051 50  0000 C CNN
+F 2 "Resistor_SMD:R_MiniMELF_MMA-0204" V 9580 4050 30  0001 C CNN
+F 3 "" H 9650 4050 30  0000 C CNN
+	1    9650 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 4050 9300 4050
+Wire Wire Line
+	9300 4050 9300 3850
+Connection ~ 9300 3850
+Wire Wire Line
+	10000 3850 10000 4050
+Wire Wire Line
+	10000 4050 9900 4050
+Connection ~ 10000 3850
+$Comp
+L blameless-rescue:D D2
+U 1 1 59FAE061
+P 3600 4200
+F 0 "D2" H 3600 4300 50  0000 C CNN
+F 1 "DL4148" H 3600 4100 50  0000 C CNN
+F 2 "Diodes_SMD:D_MiniMELF_Handsoldering" H 3600 4200 50  0001 C CNN
+F 3 "" H 3600 4200 50  0001 C CNN
+	1    3600 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 4050 3600 3900
+Wire Wire Line
+	3600 3900 3850 3900
+Connection ~ 3850 3900
+Wire Wire Line
+	3600 4350 3600 4400
+Wire Wire Line
+	3600 4400 3850 4400
+Connection ~ 3850 4400
+Wire Wire Line
+	2850 1800 2850 1900
+Wire Wire Line
+	2850 1800 3100 1800
+Wire Wire Line
+	3400 2100 3400 2950
+Wire Wire Line
+	2850 4150 3400 4150
+Wire Wire Line
+	3850 3150 4000 3150
+Wire Wire Line
+	2850 800  3400 800 
+Wire Wire Line
+	5900 800  7450 800 
+Wire Wire Line
+	4650 800  5900 800 
+Wire Wire Line
+	4650 1900 4650 2000
+Wire Wire Line
+	2350 2650 2350 2950
+Wire Wire Line
+	5900 2200 5900 2300
+Wire Wire Line
+	5450 3800 5450 3850
+Wire Wire Line
+	5450 3150 5450 3250
+Wire Wire Line
+	5900 2850 5900 2950
+Wire Wire Line
+	2000 5150 2000 5300
+Wire Wire Line
+	5900 6200 7450 6200
+Wire Wire Line
+	2400 5150 2550 5150
+Wire Wire Line
+	5900 4500 5900 4950
+Wire Wire Line
+	5900 4500 6300 4500
+Wire Wire Line
+	7450 3400 7450 3550
+Wire Wire Line
+	7450 3400 7650 3400
+Wire Wire Line
+	7450 4200 7450 4650
+Wire Wire Line
+	7450 4200 7650 4200
+Wire Wire Line
+	4850 3150 5000 3150
+Wire Wire Line
+	4100 2850 4100 2950
+Wire Wire Line
+	4100 2200 4350 2200
+Wire Wire Line
+	5450 2200 5900 2200
+Wire Wire Line
+	8700 3850 8700 4050
+Wire Wire Line
+	8700 3850 9100 3850
+Wire Wire Line
+	1350 3150 1450 3150
+Wire Wire Line
+	1950 3150 2050 3150
+Wire Wire Line
+	1350 3900 1350 4050
+Wire Wire Line
+	1350 3900 1950 3900
+Wire Wire Line
+	900  3900 1350 3900
+Wire Wire Line
+	650  3150 650  3300
+Wire Wire Line
+	2350 800  2350 950 
+Wire Wire Line
+	2000 6200 2000 6350
+Wire Wire Line
+	2850 6200 5900 6200
+Wire Wire Line
+	3400 800  4650 800 
+Wire Wire Line
+	7450 6200 8700 6200
+Wire Wire Line
+	8700 6200 9100 6200
+Wire Wire Line
+	8700 800  9100 800 
+Wire Wire Line
+	7450 800  8700 800 
+Wire Wire Line
+	6300 2850 6500 2850
+Wire Wire Line
+	6300 4500 6300 4850
+Wire Wire Line
+	9100 3850 9300 3850
+Wire Wire Line
+	9300 3850 9500 3850
+Wire Wire Line
+	10000 3850 10300 3850
+Wire Wire Line
+	3850 3900 3850 3950
+Wire Wire Line
+	3850 4400 3850 4500
+$Comp
+L blameless-rescue:BD135 Q7
+U 1 1 5BF765C8
+P 7350 2850
+F 0 "Q7" H 7550 2925 50  0000 L CNN
+F 1 "BD135" H 7550 2850 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 7550 2775 50  0001 L CIN
+F 3 "" H 7350 2850 50  0001 L CNN
+	1    7350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BD140 Q8
+U 1 1 5BF76846
+P 7350 4850
+F 0 "Q8" H 7542 4804 50  0000 L CNN
+F 1 "BD140" H 7542 4895 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 7550 4775 50  0001 L CIN
+F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 7350 4850 50  0001 L CNN
+	1    7350 4850
+	1    0    0    1   
+$EndComp
+$EndSCHEMATC
