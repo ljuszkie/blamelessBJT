@@ -5,8 +5,12 @@
 *.000
 *.bak
 *.bck
-*.kicad_pcb-bak
+*-bak
+fp-info-cache
 *~
+*.kicad_prl
+*.raw
+*.log
 _autosave-*
 *.tmp
 *-cache.lib
